@@ -1,0 +1,11 @@
+name = "samv71_config"
+description = "Contains the configuration variables for the SAMV71 line of MCUs"
+version = "0.1.0-dev"
+
+authors = ["Thomas Pedneault"]
+maintainers = ["Thomas Pedneault <thomas@pedneault.dev>"]
+maintainers-logins = ["tpedneault"]
+
+[configuration.variables]
+mcu = { type = "Enum", values = ["samv71q21b"], default = "samv71q21b" }
+runtime = { type = "Enum", values = ["embedded", "light", "light_tasking"], default = "light_tasking" }
