@@ -1,8 +1,12 @@
 name = "samv71_config"
 description = "Contains the configuration variables for the SAMV71 line of MCUs"
 version = "0.1.0-dev"
+licenses = "BSD-3-Clause"
 
-authors = ["Thomas Pedneault"]
+tags = ["embedded", "samv71"]
+website = "https://github.com/scs-cdh/samv71_config"
+
+authors = ["Space Concordia"]
 maintainers = ["Thomas Pedneault <thomas@pedneault.dev>"]
 maintainers-logins = ["tpedneault"]
 
