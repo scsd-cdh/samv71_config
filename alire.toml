@@ -1,6 +1,6 @@
 name = "samv71_config"
 description = "Contains the configuration variables for the SAMV71 line of MCUs"
-version = "0.1.0-dev"
+version = "1.0.0"
 licenses = "BSD-3-Clause"
 
 tags = ["embedded", "samv71"]
