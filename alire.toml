@@ -8,7 +8,7 @@ website = "https://github.com/scs-cdh/samv71_config"
 
 authors = ["Space Concordia"]
 maintainers = ["Thomas Pedneault <thomas@pedneault.dev>"]
-maintainers-logins = ["tpedneault"]
+maintainers-logins = ["scs-cdh"]
 
 [configuration.variables]
 mcu = { type = "Enum", values = ["samv71q21b"], default = "samv71q21b" }
